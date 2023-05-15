@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Berita</title>
+    <link rel="shortcut icon" href="asset/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="responsivenavbar" id="navbar">
+                <a href="#home" class="active"><img src="/asset/bangkit.png" alt=""></a>
+                <a href="#pendidikan" id="textnav">Pendidikan</a>
+                <a href="#olahraga" id="textnav">Olahraga</a>
+                <a href="#kesehatan" id="textnav">Kesehatan</a>
+                <a href="#about" id="textnav">About</a>
+                <input type="text" name="search" placeholder="Search.." id="searchnavbar">
+                <button id="tombolsearchnav">Cari</button>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="jumbotron">
+                <div id="textjumbotron">
+                <h1>Selamat Datang</h1>
+                <p>Selamat datang di website berita</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="konten" id="pendidikan">
+                <h1 class="judulkonten" id="beritapendidikan">Berita Pendidikan<span><a href="beritapendidikan.html"><button id="buttonkonten">lainnya</button></a></span></h1>
+                <hr>
+                <div class="wrapper" id="isikonten">
+                    <article>
+                        <img src="asset/bangkit11.png" alt="">
+                        <h1>9.000 Mahasiswa Ikut Program Bangkit 2023</h1>
+                        <p>JAKARTA - Pelaksana Tugas (Plt) Direktur Jenderal Pendidikan Tinggi, Riset dan Teknologi (Dirjen Diktiristek) Kemendikbudristk Nizam menyatakan sebanyak 9.000 mahasiswa bergabung dalam Program Bangkit batch ke-4 pada 2023.</p>
+                        <p>“Kita bangga karena Program Bangkit memasuki tahun ke-4. Tahun 2023 ini Dikti dan Google melatih 9.000 mahasiswa yang akan dibagi kepada dua semester pelaksanaan,” kata dia dalam taklimat media di Jakarta, Senin (20/2) seperti dikutip dari Antara.</p>
+                        <p>Ia mengatakan Program Bangkit merupakan kolaborasi Kemendikbudristek dengan Google bersama Gojek-Tokopedia (GoTo) dan Traveloka. Program kolaborasi ini memberi kesempatan bagi mahasiswa untuk menjadi talenta digital terampil.</p>
+                        <a href="https://www.validnews.id/nasional/9000-mahasiswa-ikut-program-bangkit-2023"><button id="buttonkonten">Baca lebih lanjut</button></a>
+                    </article>
+                    <aside>
+                        <h1>Berita Lainnya<span><button class="kontenpendidikan" id="buttonkonten">show</button></span></h1>
+                        <div class="berita" id="beritapendidikan1">
+                            <h2>Kerjasama Universitas Pendidikan Indonesia  dengan Lembaga Penerbitan Erlangga Group Revitalisasi Taman Berretty Partere </h2>
+                            <p>Universitas Pendidikan Indonesia bekerjasama dengan Lembaga Penerbitan Erlangga Group melakukan revitalisasi taman Berretty Partere (7/2/2023). Serah terima dalam rangka kerjasama revitalisasi taman Berretty dari Lembaga Penerbitan Erlangga Group kepada Universitas Pendidikan Indonesia disampaikan Bapak Raja Hutauruk, selaku Direktur  Lembaga Penerbitan Erlangga Group. <span><a href="https://berita.upi.edu/kerjasama-universitas-pendidikan-indonesia-dengan-lembaga-penerbitan-erlangga-group-revitalisasi-taman-berretty-partere/"><button id="buttonselanjutnya">Baca lebih lanjut</button></a></span></p>
+                        </div>
+                        <div class="berita" id="beritapendidikan2">
+                            <h2>Asrama ITB Kembali Gelar Turnamen Olahraga</h2>
+                            <p>BANDUNG, itb.ac.id – Asrama ITB sebagai living and learning community, sudah sewajarnya membawa kegiatan menarik di setiap kesempatan. Beberapa waktu lalu, Asrama ITB berhasil menyelenggarakan Turnamen Asrama ITB 2023 yang dilakukan di lingkungan Asrama Ganesha dan Asrama Jatinangor. Kegiatan ini dilaksanakan setiap akhir pekan pada tanggal 28-29 Januari 2023 dan 4-5 Februari 2023. <span><a href="https://www.itb.ac.id/berita/asrama-itb-kembali-gelar-turnamen-olahraga/59264"><button id="buttonselanjutnya">Baca lebih lanjut</button></a></span></p>
+                        </div>
+                        <div class="berita" id="beritapendidikan3">
+                            <h2>UI dan Danone-AQUA Libatkan BEM UI untuk Ajak Mahasiswa Bijak Seleksi Produk Konsumsi</h2>
+                            <p>Pola konsumsi masyarakat telah mengalami perubahan, terutama sejak era pandemi. Konsumen saat ini cenderung mengikuti tren kesadaran konsumsi (conscious consumption) dengan konsumen yang tidak hanya memperhatikan nilai ekonomis dan fungsi dari produk yang dikonsumsi saja, tetapi juga dampak dari produk tersebt baik terhadap lingkungan, kesehatan, maupun sosial.<span><a href="https://www.ui.ac.id/ui-dan-danone-aqua-libatkan-bem-ui-untuk-ajak-mahasiswa-bojak-seleksi-produk-konsumsi/"><button id="buttonselanjutnya">Baca lebih lanjut</button></a></span></p>
+                        </div>
+                    </aside>                
+                </div>
+            </div>
+        
+            <div class="konten" id="olahraga">
+                <h1 class="judulkonten" id="beritaolahraga">Berita Olahraga<span><a href="beritaolahraga.html"><button id="buttonkonten">lainnya</button></a></span></h1>
+                <hr>
+                <div class="wrapper" id="isikonten">
+                    <article>
+                        <img src="asset/Repsol-Honda-2023-8.jpg" alt="">
+                        <h1>Repsol Honda Team MotoGP 2023 Resmi Diperkenalkan</h1>
+                        <p>22 Februari 2023, salah satu tim elit, team pabrikan MotoGP – Repsol Honda Team secara resmi memperkenalkan warna dan line-up rider mereka untuk musim kompetisi MotoGP 2023 di Madrid, Spanyol. Secara umum warna grafis motor Honda RC213V yang akan dipakai oleh Marc Marquez dan Joan Mir bisa dibilang masih menggunakan skema pewarnaan yang sama selama bertahun-tahun belakangan dari Repsol Honda Team, plus detail merah-biru dari tiga warna khas Honda Racing Corporation RWB (red white blue) yang hadir di sekitar bawah jok.</p>
+                        <a href="https://tmcblog.com/2023/02/22/repsol-honda-team-motogp-2023-resmi-diperkenalkan/"><button id="buttonkonten">Baca lebih lanjut</button></a>
+                    </article>
+                    <aside>
+                        <aside>
+                            <h1>Berita Lainnya<span><button class="kontenolahraga" id="buttonkonten">show</button></span></h1>
+                            <div class="berita" id="beritaolahraga1">
+                                <h2>Resmi Laga Persija Jakarta Vs Persib Bandung Ditunda</h2>
+                                <p>Persija Jakarta tidak mendapatkan izin untuk menggelar pertandingan yang seharusnya digelar pada Sabtu (4/3/2023). Sejatinya Persija Jakarta sejatinya mengajukan Stadion Utama Gelora Bung Karno (SUGBK), Senayan, Jakarta Pusat, untuk menjamu Persib Bandung. <a href="https://www.bolasport.com/read/313712510/resmi-laga-persija-jakarta-vs-persib-bandung-ditunda"><span><button id="buttonselanjutnya">Baca lebih lanjut</button></span></a></p>
+                            </div>
+                            <div class="berita" id="beritaolahraga2">
+                                <h2>Sempat Jatuh, Alvaro Bautista Masih Memimpin Klasemen Pembalap di WorldSBK Mandalika 2023</h2>
+                                <p>Alvaro Bautista yang jatuh pada putaran kedua kejuaraan dunia Superbike atau WorldSBK Mandalika 2023, tetapi pembalap Spanyol ini masih memimpin klasemen pembalap. Pada Race 1 WorldSBK Mandalika 2023 hari Sabtu (4/3), Alvaro Bautista untuk pertama kalinya menang di Sirkuit Mandalika. <a href="https://www.gridoto.com/read/223716956/sempat-jatuh-alvaro-bautista-masih-memimpin-klasemen-pembalap-di-worldsbk-mandalika-2023"><span><button id="buttonselanjutnya">Baca lebih lanjut</button></span></a></p>
+                            </div>
+                            <div class="berita" id="beritaolahraga3">
+                                <h2>Max Verstappen Rebut Pole Position!</h2>
+                                <p>Pembalap Tim Red Bull Racing, Max Verstappen menjadi yang tercepat di sesi kualifikasi Formula One (F1) GP Bahrain 2023, pada Sabtu 4 Maret 2023 malam WIB. Dengan hasil tersebut, Verstappen meraih pole position alias berhak memulai balapan dari posisi terdepan. <a href="https://sports.okezone.com/read/2023/03/05/37/2775506/hasil-kualifikasi-f1-gp-bahrain-2023-max-verstappen-rebut-pole-position"><span><button id="buttonselanjutnya">Baca lebih lanjut</button></span></a></p>
+                            </div>
+                    </aside>                
+                </div>
+            </div>
+        
+            <div class="konten" id="kesehatan">
+                <h1 class="judulkonten" id="beritakesehatan">Berita Kesehatan<span><a href="beritakesehatan.html"><button id="buttonkonten">lainnya</button></a></span></h1>
+                <hr>
+                <div class="wrapper" id="isikonten">
+                    <article>
+                        <img src="https://covid19.go.id/storage/app/uploads/public/c87/68e/56d/thumb__700_0_0_0_landscape.webp" alt="">
+                        <h1>Update Minggu 5 Maret 2023: 6.737.159 Positif Covid-19, Sembuh 6.573.185, Meninggal 160.930</h1>
+                        <p>Masih terus ada penambahan kasus positif, sembuh, dan meninggal dunia akibat virus Corona di Indonesia yang dilaporkan Tim Satuan Tugas atau Tim Satgas Penanganan Covid-19. Per data hari ini, Minggu (5/3/2023), bertambah 165 orang positif Covid-19. Sehingga total akumulatifnya ada 6.737.159 orang terkonfirmasi positif terinfeksi virus Corona yang menyebabkan Covid-19 di Indonesia sampai saat ini. Penambahan kasus sembuh ada 576 orang pada hari ini. Jadi hingga kini total akumulatif terdapat 6.573.185 pasien berhasil sembuh dan dinyatakan negatif Covid-19 di Indonesia. Sementara itu, kasus sembuh pada hari ini bertambah 2 orang. Sampai saat ini di Indonesia sebanyak 160.930 orang meninggal dunia akibat virus Corona yang menyebabkan Covid-19.</p>
+                        <a href="https://www.liputan6.com/news/read/5224602/update-minggu-5-maret-2023-6737159-positif-covid-19-sembuh-6573185-meninggal-160930"><button id="buttonkonten">Baca lebih lanjut</button></a>
+                    </article>
+                    <aside>
+                        <aside>
+                            <h1>Berita Lainnya<span><button class="kontenkesehatan" id="buttonkonten">show</button></span></h1>
+                            <div class="berita" id="beritakesehatan1">
+                                <h2>Ahli Jelaskan Pemicu Depresi pada Anak yang Perlu Diketahui Orangtua</h2>
+                                <p>Seperti orang dewasa, anak-anak juga bisa mengalami depresi. Karena itu, orangtua perlu penyebab depresi pada anak. Anak-anak cenderung sulit menyampaikan perasaannya, sehingga orangtua mungkin tidak menyadari bahwa buah hatinya mengalami depresi. Namun, sebenarnya depresi pada anak bisa diketahui dengan mengamati perubahan perilakunya. <a href="https://health.kompas.com/read/23C05180000668/ahli-jelaskan-pemicu-depresi-pada-anak-yang-perlu-diketahui-orangtua"><span><button id="buttonselanjutnya">Baca lebih lanjut</button></span></a></p>
+                            </div>
+                            <div class="berita" id="beritakesehatan2">
+                                <h2>Kondisi Psikologis Pasien Stroke, Bisa Memicu Sikap dan Ucapan Semaunya</h2>
+                                <p>Stroke menjadi salah satu penyakit yang membuat pasiennya hilang kemampuan untuk melakukan berbagai macam hal. Ucapan dan sikap pasien stroke pun kerap menjadi tak terkendali terutama usai terdiagnosis atau menjalani perawatan. Ternyata, hal tersebut terjadi bukan tanpa sebab. Pasalnya, disadari atau tidak, kondisi psikologis pada pasien stroke memang bisa mengalami perubahan. <a href="https://www.liputan6.com/health/read/5224400/kondisi-psikologis-pasien-stroke-bisa-memicu-sikap-dan-ucapan-semaunya"><span><button id="buttonselanjutnya">Baca lebih lanjut</button></span></a></p>
+                            </div>
+                            <div class="berita" id="beritakesehatan3">
+                                <h2>Sehat Mental dengan Terapi Musik, Bagaimana Caranya?</h2>
+                                <p>Terapi musik adalah terapi yang memanfaatkan kemampuan musik untuk meningkatkan kesejahteraan seseorang. Terapi ini menjadi alternatif jenis terapi seperti konseling atau terapi perilaku kognitif, dilansir dari laman Medical News Today. Biasanya, seorang terapis musik menggunakan respons dan koneksi seseorang dengan musik untuk mendorong perubahan positif dalam suasana hati dan pola pikir mental seseorang secara keseluruhan. Terapi musik dapat dilakukan dengan mendengarkan musik atau menciptakan musik dengan semua jenis instrumen. Kegiatan terapi musik juga bisa melibatkan penyanyi. <a href="https://www.liputan6.com/health/read/5221304/sehat-mental-dengan-terapi-musik-bagaimana-caranya"><span><button id="buttonselanjutnya">Baca lebih lanjut</button></span></a></p>
+                            </div>
+                    </aside>                
+                </div>
+            </div>
+    
+            <div class="konten" id="about">
+                <h1 class="judulkonten" id="beritakesehatan">About</h1>
+                <hr>
+                <div class="wrapper" id="isikonten">
+                    <article>
+                        <h1>Deskripsi</h1>
+                        <p>Nama saya Muhammad Ihsan Naufal Muniif, Saya berasal dari Universitas Pendidikan Indonesia, saya tinggal di Bandung,Jawabarat. Ini merupakan submission website yang ditujukan untuk memenuhi syarat untuk kelulusan materi "Belajar Dasar Pemograman" melalui platform Dicoding. Saya berharap melalui tugas ini saya dapat lulus dengan hasil terbaik :). Aamiin</p>
+                    </article>
+                    <aside>
+                            <h1>Profil<span><button class="kontenprofil" id="buttonkonten">show</button></span></h1>
+                            <div class="berita" id="profil">
+                                <img src="asset/fotoprofil.jpg" alt="" id="fotoprofil">
+                                <h4>Nama: Muhammad Ihsan Naufal Muniif</h4>
+                                <h4>Universitas: Universitas Pendidikan Indonesia</h4>
+                                <h4>Jurusan: Teknik Komputer</h4>
+                            </div>
+                            
+                    </aside>                
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+
+    <footer>
+        <h4>@Muhammad Ihsan Naufal Muniif</h4>
+        <a href="https://www.instagram.com/ihsannaufal32"><i class="fa-brands fa-instagram" id="ikon"></i></a>Instagram<span><a href="https://www.facebook.com/265MIhsan"><i class="fa-brands fa-square-facebook" id="ikon"></i></a>Facebook</span>
+    </footer>
+
+    <script src="jquery-3.6.3.min.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("navbar");
+          if (x.className === "responsivenavbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "responsivenavbar";
+          }
+        }
+        $(document).ready(function(){
+            console.log('JQuery sudah jalan');
+        $('.kontenpendidikan').on('click',function(){
+            $('#beritapendidikan1').toggle();
+            $('#beritapendidikan2').toggle();
+            $('#beritapendidikan3').toggle();
+            });
+        $('.kontenolahraga').on('click',function(){
+            $('#beritaolahraga1').toggle();
+            $('#beritaolahraga2').toggle();
+            $('#beritaolahraga3').toggle();
+            });
+        $('.kontenkesehatan').on('click',function(){
+            $('#beritakesehatan1').toggle();
+            $('#beritakesehatan2').toggle();
+            $('#beritakesehatan3').toggle();
+            });
+        $('.kontenprofil').on('click',function(){
+            $('#profil').toggle();
+            });
+        });
+        
+        </script>    
+
+</body>
+</html>
